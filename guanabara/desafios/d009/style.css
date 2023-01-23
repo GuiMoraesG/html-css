@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+body {
+    background-color: #99FBB8;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    background-color: #267A41;
+    background-image: linear-gradient(to top, #267A41, #3EC769);
+}
+
+header > h1 {
+    text-align: center;
+    color: white;
+}
+
+header > p {
+    text-align: center;
+    color: white;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 10px 0px 3px;
+}
+
+main {
+    background-color: white;
+    min-width: 320px;
+    max-width: 1000px;
+    height: 100%;
+    margin: auto;
+    /* text-align: center; */
+    padding: 2px 15px;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 1px 1px 1px #7bc793;
+}
+
+.cont {
+    margin: auto;
+    background-color: white;
+    text-align: justify;
+}
+
+#oly{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #267A41;
+    text-align: left;
+    font-weight: bolder;
+    font-size: 3em;
+    margin: 5px;
+}
+
+h2 {
+    background-image: linear-gradient(to right, #3EC769, white);
+    color: #206837;
+}
+
+.destaque {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: #206837;
+}
+
+main > div {
+    background-color: #206837;
+}
+
+h3 {
+    text-align: center;
+    background-color: #206837;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside {
+    background-color: #99fbb881;
+    border-radius: 10px;
+}
+
+ul {
+    text-align: left;
+    padding-left: 10px;
+}
+
+li::before {
+    text-decoration: none;
+    content: '♠';
+    /* content: '☾'; */
+}
+
+#one {
+    padding-left: 400px;
+}
+
+.two {
+    display: inline-block;
+    text-decoration: none;
+}   
+
+aside > p {
+    text-align: justify;
+    padding: 2px 10px;
+}
+
+footer {
+    background-color: #164625;
+    color: white;
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
+a:hover {
+    background-color: rgba(255, 255, 255, 0.253);
+}
+
+span > a {
+    color: unset;
+    text-decoration: none;
+}
+
+span > a::after {
+    content: '☾';
+}

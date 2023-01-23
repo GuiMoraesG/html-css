@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(243, 149, 165), transparent);
+    color: rgb(230, 34, 66);
+    padding: 15px;
+}
+
+nav {
+    background-color: rgb(224, 88, 88);
+    padding: 5px 3px 3px 20px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 5px 15px 5px 15px;
+    color: rgb(12, 2, 2);
+    border-radius: 15px;
+    transition-duration: 0.5s;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.356);
+}
+
+nav a::after {
+    content: '\1F4CD\00A0';
+}

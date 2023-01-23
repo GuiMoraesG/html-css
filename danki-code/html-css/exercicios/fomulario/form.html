@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        a {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            text-decoration: none;
+            background-color: yellowgreen;
+        }
+
+        body {
+            background-color: rgba(0, 0, 0, 0.808);
+            background-image: url(https://i.ytimg.com/vi/931wc7GTod4/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBFanguZXd8tzay5VrZz3l9XCcoCQ);
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+
+        form {
+            background-color: white;
+            /* width: 96%; */
+            min-width: 250px;
+            max-width: 900px;
+            padding: 50px;
+            margin: auto;
+        }
+
+        fieldset {
+            padding: 15px 20px;
+            border: 2px solid darkgray;
+        }
+
+        legend {
+            font-size: 20px;
+            color: darkgray;
+        }
+
+        /* div {
+            text-align: center;
+        } */
+
+        .mario {
+            text-align: center;
+        }
+
+        input#name,
+        #email {
+            margin-top: 40px;
+            width: 80%;
+            padding: 10px 20px;
+        }
+
+        select {
+            margin-top: 20px;
+            width: 85%;
+            background-color: rgba(128, 128, 128, 0.24);
+            padding: 10px 20px 10px 0px;
+            border-radius: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .cidade {
+            width: 147px;
+            height: 100px;
+            margin: auto;
+            text-align: left;
+            padding: 9px;
+        }
+
+        .comida {
+            width: 147px;
+            height: 100px;
+            margin: auto;
+            text-align: left;
+            padding: 9px;
+        }
+
+        span {
+            color: darkgray;
+            font-size: 16px;
+            margin: 10px;
+        }
+
+        .bot {
+            width: 150px;
+            margin: 20px auto;
+            background-color: rgba(0, 0, 255, 0.281);
+            color: white;
+            border-radius: 5px;
+        }
+
+        .send {
+            text-align: center;
+        }
+
+        #area {
+            margin-top: 30px;
+            width: 80%;
+            resize: none;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Meu Formulario</legend>
+            <div class="mario">
+                <input type="text" name="name" id="name" placeholder="Digite seu Nome ?">
+            </div>
+            <div class="mario">
+                <input type="text" name="email" id="email" placeholder="Digite seu e-mail ?">
+            </div>
+            <div class="mario">
+                <select name="lista" id="lista">
+                    <option disabled selected>Qual sua Idade ?</option>
+                    <option>18</option>
+                    <option>20</option>
+                    <option>22</option>
+                </select>
+            </div>
+            <h1>Qual Sua Idade ?</h1>
+            <div class="cidade">
+                <div><input type="radio" name="city" id="city"><span>São Paulo ?</span></div>
+                <div><input type="radio" name="city" id="city"><span>Rio de Janeiro ?</span></div>
+                <div><input type="radio" name="city" id="city"><span>Maua ?</span></div>
+            </div>
+            <h1>Qual Sua comida favorita ?</h1>
+            <div class="comida">
+                <div><input type="radio" name="food" id="food"><span>Pizza</span></div>
+                <div><input type="radio" name="food" id="food"><span>Rosquinha</span></div>
+                <div><input type="radio" name="food" id="food"><span>Bolo</span></div>
+            </div>
+
+            <div class="send">
+                <textarea name="area" id="area" cols="30" rows="10"></textarea>
+            </div>
+
+            <div class="send">
+                <input type="submit" value="send" class="bot">
+            </div>
+
+        </fieldset>
+    </form>
+    <a href="index.html">oi</a>
+</body>
+
+</html>

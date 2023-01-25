@@ -4,7 +4,69 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+Tangsa:wght@600&family=Passion+One:wght@400;700&family=Stardos+Stencil:wght@400;700&display=swap');
 
+* {
+    margin: 0%;
+    padding: 0;
+}
+
 :root {
     --font-passion:  'Passion One', cursive;
     --font2: 'Noto Sans Tangsa', sans-serif;
+}
+
+html, body {
+    min-height: 100%;
+    background-color: darkgray;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+header p {
+    padding-bottom: 50px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 10vh 0 10vh 30px;
+    line-height: 2em;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgb(92, 89, 89);
+    color: white;
+}
+
+section.imagem > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.356);
+} 
+
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
 }

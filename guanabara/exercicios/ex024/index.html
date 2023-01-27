@@ -24,6 +24,7 @@
         th,
         td {
             border: 1px solid black;
+            padding: 5px;
         }
     </style>
 </head>
@@ -33,13 +34,13 @@
 
     <table>
         <thead>
-            <th>Grupo</th>
-            <th>Nome</th>
-            <th colspan="4">Jogos</th>
+            <th scope="col">Grupo</th>
+            <th scope="col">Nome</th>
+            <th colspan="4" scope="colgroup">Jogos</th>
         </thead>
         <tbody>
             <tr>
-                <th rowspan="2">
+                <th rowspan="3" scope="rowgroup">
                     Mulheres
                 </th>
                 <td>
@@ -76,7 +77,24 @@
                 </td>
             </tr>
             <tr>
-                <th rowspan="2">
+                <td>
+                    Carolina dos Santos
+                </td>
+                <td>
+                    Devil
+                </td>
+                <td>
+                    DOOM
+                </td>
+                <td>
+                    Metal
+                </td>
+                <td>
+                    Devil
+                </td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">
                     Homens
                 </th>
                 <td>
@@ -95,21 +113,40 @@
                     Pet
                 </td>
             </tr>
-            <td>
-                Roberto
-            </td>
-            <td>
-                SimCity
-            </td>
-            <td>
-                TheSims
-            </td>
-            <td>
-                StardeyValley
-            </td>
-            <td>
-                Pet
-            </td>
+            <tr>
+                <td>
+                    Roberto
+                </td>
+                <td>
+                    SimCity
+                </td>
+                <td>
+                    TheSims
+                </td>
+                <td>
+                    StardeyValley
+                </td>
+                <td>
+                    Pet
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Roberto
+                </td>
+                <td>
+                    SimCity
+                </td>
+                <td>
+                    TheSims
+                </td>
+                <td>
+                    StardeyValley
+                </td>
+                <td>
+                    Pet
+                </td>
+            </tr>
         </tbody>
     </table>
 </body>

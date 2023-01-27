@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        table {
+            width: 500px;
+            margin: auto;
+            border-collapse: collapse;
+        }
+
+        thead {
+            background-color: lightgray;
+        }
+
+        thead th {
+            padding: 5px;
+        }
+
+        td,
+        th {
+            border: 1px solid black;
+        }
+
+        tbody td {
+            text-align: right;
+        }
+
+        .jogo {
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Tabelas</h1>
+    <table>
+        <thead>
+            <th>Jogo</th>
+            <th colspan="2">Horas Jogadas</th>
+            
+        </thead>
+        <tbody>
+            <tr>
+                <td class="jogo">GTA 5</td>
+                <td>97 Horas</td>
+                <td>Não</td>
+            </tr>
+            <tr>
+                <td class="jogo">Monster Hunter</td>
+                <td>89 Horas</td>
+                <td>Sim</td>
+            </tr>
+            <tr>
+                <td class="jogo">SKYRIM</td>
+                <td>80 Horas</td>
+                <td>Sim</td>
+            </tr>
+            <tr>
+                <td class="jogo">The Witcher 3</td>
+                <td>76 Horas</td>
+                <td>Não</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

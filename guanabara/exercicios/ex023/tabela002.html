@@ -14,6 +14,8 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
+            margin: auto;
         }
 
         td,
@@ -21,6 +23,11 @@
             border: 1px solid black;
             padding: 5px;
         }
+
+        tbody > tr:nth-child(2n) {
+            color: white;
+            background-color: gray;
+        }        
 
         thead,
         tfoot {
@@ -35,17 +42,25 @@
             font-weight: bolder;
             font-size: 1.2em;
         }
+
+        thead th {
+            position: sticky;
+            top: 0;
+            background-color: lightgray;
+        }
+
     </style>
 </head>
 
 <body>
     <h1>Tables Grandes</h1>
     <table>
+        <caption>Título semantico da tabela</caption>
         <thead>
-            <th>
+            <th scope="col">
                 Estado
             </th>
-            <th>
+            <th scope="col">
                 População
             </th>
         </thead>
@@ -62,11 +77,19 @@
                 <td>Amazonia</td>
                 <td class="num">80,3</td>
             </tr>
+            <tr>
+                <td>Amazonia</td>
+                <td class="num">80,3</td>
+            </tr>
+            <tr>
+                <td>Amazonia</td>
+                <td class="num">80,3</td>
+            </tr>
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
-                <td id="main" class="num">162,5</td>
+                <th scope="row">Total de Habitantes</th>
+                <td id="main" class="num">undefined</td>
             </tr>
         </tfoot>
     </table>

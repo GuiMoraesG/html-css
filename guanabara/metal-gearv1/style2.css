@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+Tangsa:wght@600&family=Passion+One:wght@400;700&family=Stardos+Stencil:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --font-padrao: Arial, Helvetica, sans-serif;
+    --font-militar: 'Stardos Stencil', cursive;
+}
+
+body {
+    background-color: darkgray;
+}
+
+header {
+    min-width: 350px;
+    max-width: 980px;
+    text-align: center;
+    font-family: var(--font-militar);
+    line-height: 60px;
+    border: 8px solid darkgreen;
+    border-radius: 15px 15px 0px 0px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+}
+
+header h1 {
+    padding-top: 50px;
+    font-size: 6em;
+}
+
+header p {
+    font-size: 2.8em;
+    padding-bottom: 30px;
+}
+
+main {
+    display: grid;
+    columns: 4;
+    align-items: end;
+    border: 8px solid darkgreen;
+    border-radius: 0px 0px 15px 15px;
+    height: 85vh;
+    min-width: 350px;
+    max-width: 980px;
+    margin: auto;
+    padding: 20px;
+    font-family: var(--font-militar);
+    background-color: white;
+    background-image: url(imagens/theboss.png);
+    background-position: 400% 100%;
+    background-size: 880px;
+    background-repeat: no-repeat;
+}
+
+main > section {
+    width: 200px;
+    height: 150px;
+    font-size: 1.3em;
+    text-align: justify;
+    padding-left: 30px;
+}
+
+div {
+    position: relative;
+    width: 200px;
+    height: 150px;
+    background-color: red;
+    margin-left: 30px;
+    border-radius: 40px;
+}
+
+#dest {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
+
+div.circulo {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    margin-left: 117px;
+    border-radius: 50%;
+}
+
+aside {
+    text-align: center;
+}

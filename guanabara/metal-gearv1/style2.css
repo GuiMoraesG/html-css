@@ -94,5 +94,22 @@ div.circulo {
 }
 
 aside {
-    text-align: center;
+    min-width: 350px;
+    max-width: 980px;
+    text-align: right;
+    margin: auto;
+}
+
+aside > a {
+    text-decoration: none;
+    font-family: var(--font-militar);
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+aside > a:hover {
+    text-decoration: underline;
+    background-color: rgba(0, 0, 0, 0.623);
 }

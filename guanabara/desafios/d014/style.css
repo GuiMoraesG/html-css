@@ -21,10 +21,10 @@ div#in {
 div#in > iframe {
     width: 264px;
     height: 475px;
-
-    
-    /* background-size: cover;
-    background-attachment: fixed; */
+    overflow: hidden;
+    background-image: url(imagens/tela-home.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 div {
@@ -39,4 +39,22 @@ div {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+nav {
+    display: inline-block;
+    position: absolute;
+    top: 10%;
+    left: 89%;
+}
+
+nav > a {
+    display: block;
+    padding-bottom: 20px;
+}
+
+img.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }

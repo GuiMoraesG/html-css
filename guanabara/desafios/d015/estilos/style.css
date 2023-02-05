@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+/* Verde: #49a09d
+Lilás: #5f2c82 */
+
+
+body {
+    background-color: #5f2c82;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    position: relative;
+    height: 98vh;
+}
+
+section {
+    margin: auto;
+    background-color: white;
+    width: 65vw;
+    height: 70vh;
+
+    transition: width 0.5s, height 0.5s;
+    transition: width 0.5s, height 0.5s;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.425);
+}
+
+div#imagem {
+    display: block;
+    height: 200px;
+    background-image: url(../imagens/back-pc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div#formulario {
+    display: block;
+    margin-top: -8px;
+    padding: 10px;
+}
+
+div#formulario h1 {
+    text-align: center;
+}
+
+div#formulario p {
+    text-align: justify;
+    font-size: 0.9em;
+}
+
+div.campo {
+    display: block;
+    background-color: #5f2c82;
+    width: 95%;
+    height: 40px;
+    padding: 3px;
+    margin: 8px 0;
+    border-radius: 7px;
+}
+
+label {
+    float: right;
+    color: #5cc9c5;
+    padding-right: 7px;
+    padding-top: 10px;
+}
+
+input[type=email] {
+    width: 75%;
+    height: 33px;
+    border-radius: 7px;
+    background-color: #6ce7e3;
+    font-size: 1.2em;
+}
+
+input[type=email]:focus {
+    background-color: white;
+}
+
+input[type=password] {
+    width: 75%;
+    height: 33px;
+    border-radius: 7px;
+    background-color: #6ce7e3;
+    font-size: 1.2em;
+}
+
+input[type=password]:focus {
+    background-color: white;
+}
+
+input[type=submit] {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    padding: 3px;
+    width: 95%;
+    height: 40px;
+
+    background-color: #49a09d;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 1.1em;
+}
+
+input[type=submit]:hover {
+    background-color: #275755;
+}
+
+a {
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    padding: 3px;
+    width: 94%;
+    height: 35px;
+    text-decoration: none;
+
+    background-color: #5cc9c5;
+    color: #214746;
+    border: none;
+    border-radius: 7px;
+    font-size: 1.1em;
+}
+
+a:hover {
+    background-color: #275755;
+    color: white;
+}

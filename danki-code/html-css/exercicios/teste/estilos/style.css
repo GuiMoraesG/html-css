@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+div {
+    margin: 30vw 30vh;
+    width: 900px;
+    height: 900px;
+
+    margin: auto;
+
+    background-color: green;
+}

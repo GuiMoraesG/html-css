@@ -1,11 +1,14 @@
 @charset "UTF-8";
 
+main {
+    width: 50vw;
+    height: 800px;
+
+    background-color: rgba(0, 0, 255, 0.589);
+}
+
 div {
-    margin: 30vw 30vh;
-    width: 900px;
-    height: 900px;
-
-    margin: auto;
-
+    width: 50%;
+    height: 50%;
     background-color: green;
 }

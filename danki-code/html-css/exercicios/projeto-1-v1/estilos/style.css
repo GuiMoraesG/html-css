@@ -6,15 +6,12 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-html  {
-    overflow-x: hidden;
-}
-
-body {
-    width: 100vw;
+body, html {
+    width: 100%;
 }
 
 header {
+    width: 100vw;
     background-color: rgb(18, 18, 109);
     height: 70px;
 }
@@ -40,7 +37,7 @@ section#lista ul {
     color: rgb(211, 206, 206);
     font-weight: bold;
 
-    width: 700px;
+    max-width: 700px;
     height: 200px;
     line-height: 30px;
     padding: 15px;
@@ -55,12 +52,14 @@ section#lista ul li {
 
 section#formulario form {
     position: absolute;
-    top: 9%;
+    top: 10%;
     left: 70%;
+
+    margin-right: 0%;
 
     background-color: white;
 
-    width: 420px;
+    max-width: 420px;
     height: 500px;
 
     border: 10px solid gray;
@@ -131,9 +130,10 @@ section#about h1 {
 }
 
 section#about p {
+    text-align: justify;
     margin: auto;
-    padding-top: 10px;
-    width: 700px;
+    padding: 1% 5% 2% 5%;
+    max-width: 700px;
 }
 
 section#propaganda {
@@ -145,6 +145,7 @@ section#propaganda h2 {
     color: rgb(79, 25, 129);
     text-align: center;
     margin-bottom: 100px;
+    padding: 0 5%;
 }
 
 section#propaganda h3 {

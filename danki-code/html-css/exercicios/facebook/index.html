@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="estilos/style2.css" media="screen and (max-width:870px)">
 </head>
 
-<body>
+<body onload="ligar()">
     <main>
         <section>
             <div class="texto">
@@ -32,7 +32,7 @@
                     <input class="logar" type="submit" value="Entrar">
                     <a href="#">Esqueceu a senha?</a>
                     <hr>
-                    <input class="nconta" type="submit" value="Criar uma nova conta">
+                    <input class="nconta" type="submit" value="Criar uma nova conta" onclick="logar()">
                 </form>
                 <p>
                     <a href="#"><strong>Criar uma Página</strong></a> para uma celebridade, uma marca ou uma empresa.
@@ -68,6 +68,20 @@
             </p>
         </div>
     </footer>
+
+    <div id="criar">
+
+    </div>
+
+    <script>
+        function ligar() {
+            if (criar.style.display == 'block') {
+                criar.style.display = 'none'
+            } else {
+                criar.style.display = 'none'
+            }
+        }
+    </script>
 </body>
 
 </html>

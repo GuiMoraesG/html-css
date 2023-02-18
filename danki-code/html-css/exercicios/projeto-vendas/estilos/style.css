@@ -259,9 +259,11 @@ section.add p {
 }
 
 footer {
-    margin: 50px 0;
+    margin: 20px 0;
 
     text-align: center;
+
+    padding: 15px;
 }
 
 footer p {

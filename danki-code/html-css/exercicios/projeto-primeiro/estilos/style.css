@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html {
+    height: 100vh;
+}
+
+section#parte1 {
+    background-image: url(../imagens/capa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    display: grid;
+    justify-items: end;
+
+    height: 80vh;
+}
+
+section#parte1 nav {
+    width: 100vw;
+
+    text-align: right;
+
+    padding: 40px 10vw;
+}
+
+section#parte1 nav a {
+    text-decoration: none;
+
+    color: rgba(255, 255, 255, 0.726);
+
+    font-size: 1.2rem;
+
+    padding: 0 10px;
+}
+
+section#parte1 nav a:hover {
+    font-weight: bolder;
+
+    color: rgb(255, 255, 255);
+}
+
+#principal {
+    max-width: 850px;
+    height: 410px;
+
+    margin-right: 20%;
+
+    padding-left: 40px;
+}
+
+#principal h1 {
+    font-size: 2.5rem;
+    font-weight: normal;
+
+    color: white;
+}
+
+#principal p {
+    max-width: 647px;
+
+    font-size: 0.8rem;
+
+    color: white;
+
+    padding-top: 25px;
+
+    line-height: 20px;
+}
+
+section#parte2 {
+    background-color: rgb(92, 18, 129);
+    width: 100vw;
+    height: 500px;
+
+}

@@ -7,7 +7,9 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body, html {
+body,
+html {
+    width: 100vw;
     height: 100vh;
 }
 
@@ -77,7 +79,79 @@ section#parte1 nav a:hover {
 
 section#parte2 {
     background-color: rgb(92, 18, 129);
-    width: 100vw;
+
+    width: 100%;
     height: 500px;
 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#links {
+    padding: 0 2%;
+}
+
+section#parte2 h2, p, ul {
+    color: rgba(255, 255, 255, 0.863);
+
+    font-weight: normal;
+}
+
+section#parte2 h2 {
+    margin-bottom: 15px;
+
+    font-size: 2rem;
+}
+
+section#parte2 p {
+    padding: 15px 0;
+}
+
+section#parte2 ul li {
+    list-style: inside;
+
+    padding: 3px 0;
+}
+
+section#parte2 input {
+    margin-top: 20px;
+
+    width: 150px;
+    height: 40px;
+
+    background-color: rgb(255, 102, 0);
+    color: white;
+
+    font-size: 0.9rem;
+    font-weight: bold;
+
+    border: none;
+    border-radius: 45px;
+
+    cursor: pointer;
+}
+
+section#parte2 input:hover {
+    background-color: rgb(252, 151, 85);
+}
+
+div#imagem {
+    display: flex;
+    align-items: flex-end;
+
+    width: 35%;
+    height: 100%;
+
+    margin: 0 2%;
+}
+
+div#imagem img {
+    width: 100%;
+    height: 564px;
+}
+
+section#parte3 {
+    height: 600px;
 }

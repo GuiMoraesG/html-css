@@ -3,3 +3,34 @@
 div#imagem {
     display: none;
 }
+
+#destaque {
+    display: none;
+}
+
+section#parte3 {
+    height: 580px;
+}
+
+section#parte4 {
+    display: flex;
+    flex-direction: column;
+}
+
+#esq {
+    width: 100%;
+
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+
+#dir {
+    width: 100%;
+
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    justify-content: space-around;
+}

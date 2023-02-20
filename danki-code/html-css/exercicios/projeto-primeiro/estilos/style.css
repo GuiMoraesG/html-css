@@ -203,6 +203,12 @@ section#parte4 {
     height: 750px;
 }
 
+div#titulo {
+    margin-top: 25px;
+
+    width: 450px;
+}
+
 #esq {
     background-color: rgb(98, 70, 124);
 
@@ -227,7 +233,6 @@ section#parte4 {
 
 #esq p {
     max-width: 450px;
-    height: 100px;
 
     text-align: justify;
 }
@@ -250,11 +255,11 @@ section#parte4 {
 #dir h4 {
     font-size: 1.8rem;
     padding-bottom: 15px;
+    padding-right: 15px;
 }
 
 #dir p {
-    max-width: 450px;
-    height: 100px;
+    max-width: 400px;
 
     color: black;
 
@@ -263,7 +268,7 @@ section#parte4 {
 
 #titulo {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 

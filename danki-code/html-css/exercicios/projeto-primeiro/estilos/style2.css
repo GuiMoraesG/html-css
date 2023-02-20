@@ -17,6 +17,10 @@ section#parte4 {
     flex-direction: column;
 }
 
+#titulo {
+    justify-content: space-around;
+}
+
 #esq {
     width: 100%;
 

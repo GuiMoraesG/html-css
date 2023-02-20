@@ -8,13 +8,16 @@
     <title>Projeto-Primeiro</title>
     <link rel="stylesheet" href="estilos/style.css" media="all">
     <link rel="stylesheet" href="estilos/style2.css" media="screen and (max-width:930px)">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 
 <body>
     <main>
         <section id="parte1">
             <div>
-                <nav>
+                <div id="menu"><span onclick="ativar()" class="material-symbols-outlined">menu</span></div>
+                <nav id="navegador">
                     <a href="#">Home</a>
                     <a href="#">Serviços</a>
                     <a href="#">Sobre</a>
@@ -125,6 +128,15 @@
             Lorem ipsum dolor sit amet consectetur
         </p>
     </footer>
+    <script>
+        function ativar() {
+            if (navegador.style.display == 'block') {
+                navegador.style.display = 'none'
+            } else {
+                navegador.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 
 </html>

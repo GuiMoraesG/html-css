@@ -11,6 +11,8 @@ body,
 html {
     width: 100vw;
     height: 100vh;
+
+    overflow-x: hidden;
 }
 
 section#parte1 {
@@ -298,4 +300,132 @@ section#parte4 {
 
     width: 100%;
     height: 45px;
+}
+
+section#parte5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+
+    background-color: rgb(80, 25, 131);
+
+    width: 100%;
+    height: 750px;
+
+    padding: 30px;
+}
+
+section#parte5 form {
+    text-align: center;
+
+    max-width: 450px;
+    height: 70%;
+
+    margin: 30px 2%;
+}
+
+form>h3 {
+    text-align: left;
+
+    color: white;
+
+    font-weight: normal;
+
+    padding: 0 2%;
+}
+
+form>p {
+    text-align: justify;
+
+    color: white;
+
+    font-weight: normal;
+}
+
+section#parte5 form input[type=text],
+input[type=email] {
+    display: block;
+
+    text-align: left;
+
+    width: 100%;
+    height: 45px;
+
+    margin-bottom: 15px;
+
+    padding: 0 2%;
+
+    font-size: 1.2rem;
+}
+
+section#parte5 form input[type=submit] {
+    display: block;
+
+    width: 90px;
+    height: 40px;
+
+    background-color: rgb(255, 102, 0);
+
+    color: white;
+
+    font-size: 0.9rem;
+    font-weight: bold;
+
+    border: none;
+    border-radius: 45px;
+
+    cursor: pointer;
+
+}
+
+section#parte5 form input[type=submit]:hover {
+    background-color: rgb(252, 151, 85);
+}
+
+section#parte5 textarea {
+    width: 100%;
+    height: 130px;
+
+    margin-bottom: 15px;
+
+    font-size: 0.9rem;
+
+    padding: 5px;
+}
+
+#mapa {
+    width: 350px;
+    height: 350px;
+}
+
+div#mapa h3 {
+    margin-bottom: 20px;
+
+    color: white;
+
+    font-weight: normal;
+    font-size: 1.1rem;
+}
+
+#area {
+    width: 100%;
+    height: 88%;
+
+    background-color: white;
+}
+
+
+footer {
+    display: flex;
+
+    height: 130px;
+    background-color: black;
+}
+
+footer p {
+    max-width: 350px;
+
+    font-size: 0.8rem;
 }

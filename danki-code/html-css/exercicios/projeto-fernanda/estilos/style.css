@@ -24,7 +24,7 @@ header {
     align-items: center;
 
 
-    width: 1250px;
+    max-width: 1250px;
 
     margin: auto;
 }
@@ -48,10 +48,12 @@ header a:hover {
 }
 
 #imagens {
-    width: 80px;
-    height: 80px;
+    width: 240px;
+    height: 250px;
 
-    background-color: green;
+    background-image: url(../imagens/img12.jpg);
+    background-size: cover;
+    background-position: center center;
 
     margin: 5px;
 }
@@ -64,10 +66,128 @@ header a:hover {
     margin: auto;
 
     width: 100vw;
-
-    background-color: rgba(0, 255, 255, 0.418);
 }
 
-.parte1>div#imagens {
-    display: inline-block;
+.linha1 {
+    display: flex;
+}
+
+.linha2 {
+    display: flex;
+}
+
+.parte2 {
+    position: relative;
+    top: -40px;
+}
+
+.servicos {
+    display: flex;
+    align-items: center;
+
+    max-width: 980px;
+
+    font-size: 12px;
+
+    text-align: center;
+
+    color: white;
+
+    margin: 0 auto;
+}
+
+.box01 {
+    width: 30%;
+
+    background-color: #488AB1;
+
+    padding: 35px 2%;
+}
+
+.box01 p {
+    margin-top: 12px;
+}
+
+.box01 h3 {
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.box02 {
+    width: 40%;
+
+    background-color: #26C3D6;
+
+    padding: 70px 2%;
+}
+
+.box02 p {
+    margin-top: 12px;
+}
+
+.box02 h3 {
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.box03 {
+    width: 30%;
+
+    background-color: #488AB1;
+
+    padding: 25px 2%;
+}
+
+.box03 h3 {
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.box03 p {
+    margin-top: 12px;
+}
+
+.parte3 {
+    display: flex;
+
+
+    max-width: 980px;
+    height: 580px;
+
+    margin: 0 auto;
+    padding: 25px;
+}
+
+.imagen-fernada {
+    background-image: url(../imagens/foto-fernanda.png);
+    background-size: 100% 100%;
+    background-position: top center;
+
+    width: 40%;
+
+    background-color: #595959;
+}
+
+.sobre-fernada {
+    width: 60%;
+
+    padding: 25px 40px 40px 40px;
+}
+
+.sobre-fernada h2 {
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+.sobre-fernada strong {
+    color: #488AB1;
+}
+
+.sobre-fernada p, ul {
+    color: #333;
+}
+
+.sobre-fernada li {
+    list-style: inside;
+    list-style-type: armenian;
 }

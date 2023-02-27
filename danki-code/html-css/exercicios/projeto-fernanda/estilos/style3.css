@@ -3,3 +3,31 @@
 div.navegador nav {
     display: none;
 }
+
+.vidio {
+    flex-direction: column;
+
+    height: auto;
+
+    margin: 0;
+}
+
+.box-video {
+    width: 80%;
+}
+
+.box-tratamento {
+    width: 70%;
+}
+
+.box-tratamento01 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-tratamento02 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

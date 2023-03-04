@@ -206,25 +206,29 @@
             </div>
         </section>
         <section class="parte9">
-            <h3>Entre em contato</h3>
+            <h3>Entre em <strong>contato conosco</strong></h3>
             <form action="">
                 <div>
                     <label for="nome">Seu Nome</label>
-                    <input type="text" name="nome" id="nome">
+                    <input type="text" name="nome" id="nome" placeholder="Seu Nome">
                 </div>
-                <div>
-                    <label for="email">Seu Melhor e-mail</label>
-                    <input type="email" name="email" id="email">
-                </div>
-                <div>
-                    <label for="tell">Seu telefone</label>
-                    <input type="tel" name="tell" id="tell">
+                <div class="flex">
+                    <div class="email-tell">
+                        <label for="email">Seu Melhor e-mail</label>
+                        <input type="email" name="email" id="email" placeholder="abcd@gmail.com">
+                    </div>
+                    <div class="email-tell">
+                        <label for="tell">Seu telefone</label>
+                        <input type="tel" name="tell" id="tell" placeholder="() - 1234-1234">
+                    </div>
                 </div>
                 <div>
                     <label for="texto">Sua Mensagem</label>
-                    <textarea name="texto" id="texto" cols="30" rows="10"></textarea>
+                    <textarea name="texto" id="texto" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
                 </div>
-                <input type="submit" value="Enviar">
+                <div class="botao">
+                    <input type="submit" value="Enviar">
+                </div>
             </form>
         </section>
     </main>

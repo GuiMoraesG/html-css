@@ -11,6 +11,8 @@
 html,
 body {
     height: 100vh;
+
+    overflow-x: hidden;
 }
 
 header {
@@ -341,8 +343,8 @@ ul {
 
 .container-part7 {
     max-width: 1250px;
-    
-    margin: auto ;
+
+    margin: auto;
 
     padding: 0 2%;
 }
@@ -353,4 +355,37 @@ ul {
 
 .container-part7 img {
     width: 100%;
+}
+
+.rodape {
+    width: 100%;
+    height: 137px;
+
+    background-color: #488AB1;
+    color: white;
+
+    text-align: center;
+}
+
+.rodape h4 {
+    font-size: 1.4rem;
+
+    padding: 20px 0;
+}
+
+.imagens-rodape {
+    width: 100%;
+    height: 231px;
+
+    display: flex;
+}
+
+.img-parte8 {
+    margin: 4px 0;
+
+    width: 100%;
+
+    background-image: url(../imagens/img12.jpg);
+    background-size: cover;
+    background-position: center center;
 }

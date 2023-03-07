@@ -422,7 +422,8 @@ ul {
     color: #595959;
 }
 
-.parte9 input, textarea {
+.parte9 input,
+textarea {
     margin: 8px 0;
     padding: 5px;
 
@@ -464,6 +465,7 @@ ul {
 #email {
     width: 95%;
 }
+
 .parte9 input[type=submit] {
     width: 160px;
 
@@ -478,4 +480,35 @@ ul {
 .parte9 input[type=submit]:hover {
     background-color: lightgray;
     color: black;
+}
+
+footer {
+    background-color: #488AB1;
+}
+
+footer>div.contato {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #488AB1;
+    color: white;
+
+    max-width: 1100px;
+
+    margin: auto;
+
+    padding: 20px;
+
+    width: 100%;
+}
+
+.sem {
+    background-color: #26C3D6;
+    color: white;
+
+    text-align: center;
+
+    padding: 25px;
+
 }

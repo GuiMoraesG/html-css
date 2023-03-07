@@ -510,5 +510,14 @@ footer>div.contato {
     text-align: center;
 
     padding: 25px;
+}
 
+.navegador>span {
+    display: none;
+
+    font-size: 4rem;
+
+    color: #319cda;
+
+    cursor: pointer;
 }

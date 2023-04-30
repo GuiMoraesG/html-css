@@ -155,3 +155,80 @@ section#parte-2 .container {
 
     cursor: pointer;
 }
+
+section#parte-3 {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+    margin-top: 150px;
+}
+
+#service-area {
+    background-color: #242424;
+    color: white;
+
+    width: 50%;
+    height: 300px;
+
+    font-size: 20px;
+
+    text-align: left;
+
+    margin: auto;
+
+    padding: 25px 2%;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#service-area ul {
+    display: inline-block;
+
+    margin-right: 40px;
+}
+
+#service-area li::marker {
+    content: '• ';
+
+    color: white;
+}
+
+#parte-3 a {
+    width: 150px;
+    height: 55px;
+
+    padding: 10px 20px;
+
+    font-size: 1.3rem;
+
+    background-color: rgb(216, 26, 26);
+    color: white;
+
+    border: none;
+    border-bottom: 5px solid darkred;
+
+    cursor: pointer;
+
+    text-decoration: none;
+}
+
+#caixa1 {
+    width: 430px;
+}
+
+#depoiment-area {
+    color: white;
+    background-color: #e82d2d;
+
+    height: 300px;
+    width: 50%;
+
+    font-size: 20px;
+}

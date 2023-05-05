@@ -292,3 +292,20 @@ section#parte-3 {
 
     padding: 13px;
 }
+
+#parte-4 button {
+    width: 150px;
+    height: 55px;
+
+    font-size: 1.3rem;
+
+    background-color: rgb(216, 26, 26);
+    color: white;
+
+    border: none;
+    border-bottom: 5px solid darkred;
+
+    cursor: pointer;
+
+    margin-top: 25px;
+}

@@ -93,6 +93,10 @@ main section#parte-1 {
     border-top: 2px solid red;
 }
 
+.banner {
+    padding: 0 2%;
+}
+
 section#parte-2 h2 {
     text-align: center;
 

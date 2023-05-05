@@ -239,3 +239,56 @@ section#parte-3 {
     flex-direction: column;
     flex-wrap: nowrap;
 }
+
+#parte-4 h2 {
+    text-align: center;
+
+    font-size: 2rem;
+
+    margin-top: 85px;
+    margin-bottom: 65px;
+}
+
+#parte-4 .container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+    padding-top: 0px;
+}
+
+#parte-4 form {
+    width: 55%;
+
+    text-align: center;
+}
+
+#parte-4 div {
+    padding: 10px 0;
+}
+
+#parte-4 input {
+    padding: 13px;
+
+    font-size: 1.1rem;
+}
+
+#parte-4 .inputName input {
+    width: 100%;
+}
+
+#parte-4 .emailTell input {
+    width: 49%;
+}
+
+#parte-4 input[type=email] {
+    margin-right: 8px;
+}
+
+#parte-4 textarea {
+    width: 100%;
+
+    font-size: 1.1rem;
+
+    padding: 13px;
+}

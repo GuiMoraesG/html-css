@@ -10,6 +10,18 @@ footer nav {
     display: none;
 }
 
+.material-symbols-outlined {
+    display: block;
+
+    cursor: pointer;
+}
+
+.material-symbols-outlined:hover {
+    background-color: rgba(224, 10, 10, 0.63);
+
+    border-radius: 5px;
+}
+
 .navegador nav a {
     display: none;
 }

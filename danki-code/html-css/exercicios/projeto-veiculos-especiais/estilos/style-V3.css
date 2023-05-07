@@ -7,5 +7,9 @@ section#parte-2 .container div {
 }
 
 footer nav {
- display: none;
+    display: none;
+}
+
+.navegador nav a {
+    display: none;
 }

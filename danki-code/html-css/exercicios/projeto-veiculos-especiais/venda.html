@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="estilos/style-V2.2.css" media="screen and (max-width: 1093px)">
+    <link rel="stylesheet" href="estilos/style-V2.css" media="screen and (max-width: 940px)">
+    <link rel="stylesheet" href="estilos/style-V3.css" media="screen and (max-width: 565px)">
+
+    <title>Veículos Especiais</title>
+</head>
+
+<body>
+    <header class="header-vendas">
+        <div><img src="imagens/logo-header.jpg" alt="logo-da-marca"></div>
+        <div class="navegador">
+            <nav class="hamburguer">
+                <span class="material-symbols-outlined">menu</span>
+                <a href="index.html">Home</a>
+                <a href="venda.html" class="checked">Venda</a>
+                <a href="#">Sobre</a>
+                <a href="#">Contato</a>
+            </nav>
+        </div>
+    </header>
+    <main class="vendas">
+        <h1>VEÍCULOS EM DESTAQUE</h1>
+        <div class="container">
+            <div class="filtro">
+                <h2>Filtro por preço</h2>
+                <input type="range" name="preco" id="preco" min="0" max="70000">
+                <p><output id="value">R$0</output> R$70000.00</p>
+                <div>
+                    <h2>Filtre por ano</h2>
+                    <div>
+                        <input type="checkbox" name="chk1" id="chk1">
+                        <label for="chk1">Todas as decadas</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="chk1" id="chk1">
+                        <label for="chk1">1960 - 1970</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="chk1" id="chk1">
+                        <label for="chk1">1970 - 1980</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="chk1" id="chk1">
+                        <label for="chk1">1981 - 1990</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-carros">
+                <div class="container-antes-carros">
+                    <div class="box-carro">
+                        <div class="carro-img"></div>
+                        <h3>Nitro-Volution</h3>
+                        <p class="informacoes">
+                            1.6 8v, Gasolina, 2P, Manual 1969
+                        </p>
+                        <button>Mais detalhes</button>
+                    </div>
+                    <div class="box-carro">
+                        <div class="carro-img"></div>
+                        <h3>Nitro-Volution</h3>
+                        <p class="informacoes">
+                            1.6 8v, Gasolina, 2P, Manual 1969
+                        </p>
+                        <button>Mais detalhes</button>
+                    </div>
+                    <div class="box-carro">
+                        <div class="carro-img"></div>
+                        <h3>Nitro-Volution</h3>
+                        <p class="informacoes">
+                            1.6 8v, Gasolina, 2P, Manual 1969
+                        </p>
+                        <button>Mais detalhes</button>
+                    </div>
+                </div>
+
+                <div class="container-antes-carros">
+                    <div class="box-carro">
+                        <div class="carro-img"></div>
+                        <h3>Nitro-Volution</h3>
+                        <p class="informacoes">
+                            1.6 8v, Gasolina, 2P, Manual 1969
+                        </p>
+                        <button>Mais detalhes</button>
+                    </div>
+
+                    <div class="box-carro">
+                        <div class="carro-img"></div>
+                        <h3>Nitro-Volution</h3>
+                        <p class="informacoes">
+                            1.6 8v, Gasolina, 2P, Manual 1969
+                        </p>
+                        <button>Mais detalhes</button>
+                    </div>
+
+                    <div class="box-carro">
+                        <div class="carro-img"></div>
+                        <h3>Nitro-Volution</h3>
+                        <p class="informacoes">
+                            1.6 8v, Gasolina, 2P, Manual 1969
+                        </p>
+                        <button>Mais detalhes</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="venda.html" class="checked">Venda</a>
+                <a href="#">Sobre</a>
+                <a href="#">Contato</a>
+            </nav>
+        </div>
+        <div>
+            <p>Todos os direitos reservados</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="venda.js"></script>
+</body>
+
+</html>

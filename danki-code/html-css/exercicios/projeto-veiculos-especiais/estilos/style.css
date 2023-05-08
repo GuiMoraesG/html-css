@@ -352,3 +352,64 @@ footer p {
 
     display: none;
 }
+
+.header-vendas {
+    border-bottom: 2px solid red;
+}
+
+.vendas>.container {
+    padding: 0;
+
+    display: flex;
+
+    max-width: 1250px;
+}
+
+.vendas {
+    max-width: 100%;
+    height: 100%;
+}
+
+.vendas h1 {
+    text-align: center;
+
+    margin: 40px 0;
+}
+
+.filtro {
+    width: 25%;
+
+    padding: 0 2%;
+}
+
+.filtro input[type=range] {
+    width: 100%;
+}
+
+.filtro p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filtro div {
+    padding: 8px 0;
+
+    font-size: 17px;
+}
+
+.container-carros {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 25px 0;
+}
+
+.container-antes-carros {
+    display: flex;
+
+    padding: 25px 0;
+}

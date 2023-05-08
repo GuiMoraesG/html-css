@@ -417,3 +417,43 @@ footer p {
 
     padding: 25px 0;
 }
+
+.sobre h1 {
+    text-align: center;
+
+    margin: 40px 0;
+}
+
+.sobre img {
+    width: 100%;
+}
+
+.sobre .container {
+    max-width: 1100px;
+
+    padding: 0px 2%;
+}
+
+.sobre p {
+    text-align: justify;
+
+    margin: 20px 0;
+
+    line-height: 25px;
+}
+
+.sobre h2 {
+    margin: 20px 0;
+}
+
+.texto-abaixo {
+    display: flex;
+    align-items: center;
+}
+
+.texto-abaixo img {
+    width: 250px;
+    height: 250px;
+
+    margin-right: 20px;
+}

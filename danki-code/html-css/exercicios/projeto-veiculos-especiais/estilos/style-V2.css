@@ -33,3 +33,28 @@ section#parte-3 {
 #parte-3 a {
     display: block;
 }
+
+.vendas .container {
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.filtro {
+    width: 80%;
+}
+
+.filtro div {
+    text-align: center;
+}
+
+.container-antes-carros {
+    display: flex;
+    flex-direction: column;
+}
+
+.vendas .box-carro {
+    width: 100%;
+    padding: 10px 10px;
+}

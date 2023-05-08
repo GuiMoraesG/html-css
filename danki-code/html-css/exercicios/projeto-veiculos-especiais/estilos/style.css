@@ -386,6 +386,10 @@ footer p {
     width: 100%;
 }
 
+.filtro output {
+    padding-right: 10px;
+}
+
 .filtro p {
     display: flex;
     flex-direction: row;

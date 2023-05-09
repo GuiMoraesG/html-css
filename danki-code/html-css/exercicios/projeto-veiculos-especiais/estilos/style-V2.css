@@ -68,3 +68,7 @@ section#parte-3 {
 
     max-width: 1250px;
 }
+
+section#parte-2 .container div {
+    margin-bottom: 30px;
+}

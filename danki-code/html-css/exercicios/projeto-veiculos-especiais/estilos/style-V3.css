@@ -31,3 +31,16 @@ footer nav {
     align-items: center;
     flex-direction: column;
 }
+
+.btn {
+    width: 165px;
+    height: 55px;
+    padding: 10px 15px;
+    font-size: 1.3rem;
+    background-color: rgb(216, 26, 26);
+    color: white;
+    border: none;
+    border-bottom: 5px solid darkred;
+    cursor: pointer;
+    text-decoration: none;
+}

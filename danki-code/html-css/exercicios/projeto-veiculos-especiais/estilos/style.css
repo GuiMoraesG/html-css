@@ -457,3 +457,84 @@ footer p {
 
     margin-right: 20px;
 }
+
+.detalhes-veiculos .container {
+    padding: 0;
+
+    display: flex;
+    align-items: flex-start;
+
+    max-width: 1250px;
+}
+
+.carro {
+    padding: 0 2%;
+
+    width: 60%;
+}
+
+.detalhes-veiculos h1 {
+    text-align: center;
+
+    margin: 40px 0;
+
+    font-size: 2rem;
+}
+
+.main-img img {
+    width: 100%;
+
+    margin: 15px 0;
+}
+
+.red-arrow {
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-right: 25px solid #e82d2d;
+
+    cursor: pointer;
+}
+
+.left-red-arrow {
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-left: 25px solid #e82d2d;
+
+    cursor: pointer;
+}
+
+.rolled {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    width: 100%;
+}
+
+.rolled img {
+    max-width: 25%;
+
+    padding: 5px;
+
+    cursor: pointer;
+}
+
+.preco-detalhes {
+    width: 40%;
+}
+
+.preco-detalhes h2 {
+    margin-top: 40px;
+    margin-bottom: 25px;
+
+}
+
+.preco-detalhes p {
+    max-width: 360px;
+
+    margin-bottom: 35px;
+}

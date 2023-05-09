@@ -25,3 +25,9 @@ footer nav {
 .navegador nav a {
     display: none;
 }
+
+.texto-abaixo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

@@ -438,3 +438,30 @@ footer p {
 #menu {
     display: none;
 }
+
+.circle {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    width: 100%;
+
+    padding: 2%;
+}
+
+.circle span {
+    width: 20px;
+    height: 20px;
+
+    border-radius: 50%;
+
+    background-color: #ddd;
+
+    margin-right: 25px;
+
+    cursor: pointer;
+}
+
+.circle span:first-child {
+    background-color: black;
+}

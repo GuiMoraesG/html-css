@@ -37,6 +37,16 @@ section#parte4 {
     justify-items: center;
     align-content: center;
     justify-content: space-around;
+
+    padding: 0;
+}
+
+div#titulo {
+    width: 400px;
+}
+
+#dir p {
+    width: 375px;
 }
 
 section#parte5 {
@@ -73,7 +83,7 @@ section#parte5 {
 }
 
 section#parte1 nav {
-    padding: 10px 10vw;
+    padding: 0px 0px;
 }
 
 nav {
@@ -85,4 +95,20 @@ nav a {
     text-align: center;
 
     margin-bottom: 15px;
+}
+
+#navegador {
+    display: none;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.281);
+}
+
+#principal {
+    margin-right: 10%;
+}
+
+#mapa {
+    max-width: 375px;
 }

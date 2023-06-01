@@ -10,13 +10,16 @@
     <link rel="stylesheet" href="estilos/style2.css" media="screen and (max-width:930px)">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://code.jquery.com/jquery-3.7.0.js"
+        integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous">
+    </script>
 </head>
 
 <body>
     <main>
         <section id="parte1">
             <div>
-                <div id="menu"><span onclick="ativar()" class="material-symbols-outlined">menu</span></div>
+                <div id="menu"><span onclick="openMenu()" class="material-symbols-outlined">menu</span></div>
                 <nav id="navegador">
                     <a href="#">Home</a>
                     <a href="#">Serviços</a>
@@ -131,15 +134,9 @@
             Lorem ipsum dolor sit amet consectetur
         </p>
     </footer>
-    <script>
-        function ativar() {
-            if (navegador.style.display == 'block') {
-                navegador.style.display = 'none'
-            } else {
-                navegador.style.display = 'block'
-            }
-        }
-    </script>
+
+    <!-- <script src="main.js"></script> -->
+    <script src="jquery.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,3 @@
+$('#menu').click(() => {
+    $('#navegador').slideToggle()
+})

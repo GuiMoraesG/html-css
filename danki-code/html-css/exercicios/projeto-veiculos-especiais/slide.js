@@ -39,5 +39,4 @@ $('.rolled img').click(function () {
     $(this).css('background-color', 'gray')
 })
 
-
 slider()

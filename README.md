@@ -1,8 +1,2 @@
 # html-css
- HTML e CSS
-
-<a href="https://guimoraesg.github.io/html-css/">guanabara!!!</a>
-
-<a href="https://guimoraesg.github.io/html-css/guanabara/exercicios/ex001/">exercicios guanabara!!!</a>
-
-<a href="https://guimoraesg.github.io/html-css/danki-code/html-css/exercicios/star-b/star.html">exercicios danki-code!!!</a>
+Repositório focado em estudos sobre em HTML e CSS, aqui vai ser encontrado exrecicios e atividades realizados em base nos cursos da Udemy e youTube
